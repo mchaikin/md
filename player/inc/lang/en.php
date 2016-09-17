@@ -1,0 +1,16 @@
+<?php $lang=array (
+  'loading-message' => 'Loading, please wait...',
+  'ui-settings' => 'Select stream quality',
+  'ui-channels' => 'Channels list',
+  'ui-play' => 'Start playing',
+  'ui-stop' => 'Stop playing',
+  'ui-volume-circle' => 'Drag to change volume',
+  'ui-playlists' => 'Listen in your favourite player',
+  'status-init' => 'Loading {STREAM}...',
+  'status-playing' => 'Playing {STREAM}...',
+  'status-stopped' => 'Player stopped.',
+  'status-volume' => 'Volume: {LEVEL}',
+  'status-muted' => 'Player muted.',
+  'share' => 'Share',
+  'twitter-share' => 'I am listening to {TRACK} at my favourite radio.',
+); ?>

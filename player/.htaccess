@@ -1,0 +1,24 @@
+## Basic htacess file for AIO - RADIO STATION PLAYER
+## What does it do?
+## It disables autoindex, mod rewrite and other crap for this player to work normaly
+##########################################################################################
+
+# Turn off rewrite
+<IfModule mod_rewrite.c>
+	RewriteEngine Off
+</IfModule>
+
+
+# Turn off autoindex
+<IfModule mod_autoindex.c>
+	Options -Indexes
+</IfModule>
+
+
+# Add Type headers
+AddType video/webm .webm
+AddType video/ogg .ogv
+AddType audio/ogg .ogg
+AddType video/mp4 .mp4
+AddType audio/mpeg .mp3
+AddType image/svg+xml .svg

@@ -1,0 +1,16 @@
+<?php $lang=array (
+  'loading-message' => 'Загружается, подождите...',
+  'ui-settings' => 'Выберите качество потока',
+  'ui-channels' => 'Спсок каналов',
+  'ui-play' => 'Воспроизвести',
+  'ui-stop' => 'Остановить',
+  'ui-volume-circle' => 'Потяните для изменения громкости',
+  'ui-playlists' => 'Слушать в своем  плеере',
+  'status-init' => 'Загрузка {STREAM}...',
+  'status-playing' => 'Играет {STREAM}...',
+  'status-stopped' => 'Плеер остановлен.',
+  'status-volume' => 'Громкость: {LEVEL}',
+  'status-muted' => 'Без звука.',
+  'share' => 'Поделиться',
+  'twitter-share' => 'Я слушаю {TRACK} на Musical Decadence Radio.',
+); ?>
